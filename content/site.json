@@ -1,0 +1,87 @@
+{
+  "site": {
+    "name": "Uzm. Psk. Deniz Örnek",
+    "title": "Uzman Klinik Psikolog",
+    "email": "ornek@psychofolio.com",
+    "address": "İstanbul, Türkiye",
+    "copyright": "Tüm hakları saklıdır."
+  },
+  "home": {
+    "badge": "WARM",
+    "headline": "Ailenizle birlikte,",
+    "headlineAccent": "daha güçlü bağlar",
+    "headlineSuffix": "kurun.",
+    "description": "Aile, çift ve ergen terapisinde sıcak, güvenli ve yapıcı bir alan sunuyorum. Birlikte yeni iletişim yolları keşfedelim.",
+    "cta": "Randevu Alın",
+    "cardTitle": "Sıcaklık & Güven",
+    "cardSubtitle": "Aile ve İlişki Terapisi",
+    "quote": "Bir çocuğun en derin ihtiyacı sevildiğini bilmektir.",
+    "quoteAuthor": "Virginia Satir"
+  },
+  "services": [
+    {
+      "title": "Aile Terapisi",
+      "desc": "Aile içi iletişim sorunları, rol çatışmaları ve nesiller arası örüntülerin fark edilmesi ve dönüştürülmesi için sistemik yaklaşım.",
+      "duration": "75 dk",
+      "method": "Yüzyüze"
+    },
+    {
+      "title": "Çocuk ve Ergen Terapisi",
+      "desc": "Okul uyum güçlükleri, davranış sorunları, kaygı ve özgüven konularında çocuk ve ergenlere özel terapi süreci.",
+      "duration": "50 dk",
+      "method": "Yüzyüze / Çevrimiçi"
+    },
+    {
+      "title": "Çift Terapisi",
+      "desc": "Duygusal kopukluk, iletişim tıkanıkları ve ilişkide güven onarımı için yapılandırılmış çift terapi süreci.",
+      "duration": "75 dk",
+      "method": "Yüzyüze"
+    },
+    {
+      "title": "Ebeveyn Danışmanlığı",
+      "desc": "Çocuğunuzla sağlıklı sınırlar kurma, duygu koçluğu ve gelişim dönemlerini anlama üzerine rehberlik.",
+      "duration": "50 dk",
+      "method": "Yüzyüze / Çevrimiçi"
+    }
+  ],
+  "about": {
+    "title": "Hakkımda",
+    "intro": "Aile ve ilişki terapisi alanında çalışmalarımı yürütüyorum. Danışanlarımın aile içi ilişkilerini güçlendirmelerine, birbirleriyle daha derin bağlar kurmalarına eşlik ediyorum.",
+    "credentials": [
+      { "year": "\u2014", "title": "Lisans Eğitimi", "detail": "Psikoloji alanında lisans derecesi" },
+      { "year": "\u2014", "title": "Yüksek Lisans", "detail": "Aile ve çift terapisi alanında uzmanlık" },
+      { "year": "\u2014", "title": "Sistemik Aile Terapisi Eğitimi", "detail": "Aile sistemleri yaklaşımında ileri düzey eğitim" }
+    ]
+  },
+  "approach": {
+    "title": "Terapi Yaklaşımım",
+    "intro": "Her aile kendine özgü bir sistemdir. Terapide amacım, ailenin kendi iç kaynaklarını keşfetmesine ve ilişkilerin besleyici bir zemine kavuşmasına yardımcı olmaktır.",
+    "principles": [
+      { "title": "Sistemik Bakış Açısı", "desc": "Bireyi tek başına değil, ilişkisel bağlamı içinde anlıyorum. Aile üyelerinin birbirleriyle etkileşim örüntüleri terapinin odak noktasıdır." },
+      { "title": "Güvenli ve Sıcak Ortam", "desc": "Her aile üyesinin kendini rahatça ifade edebileceği, yargılanmadan dinleneceği sıcak bir terapi alanı sunuyorum." },
+      { "title": "Güçlere Odaklanma", "desc": "Ailenin var olan güçlü yanlarını ve kaynaklarını keşfederek, bu temeller üzerine yeni iletişim becerileri inşa ediyoruz." },
+      { "title": "Gelişimsel Duyarlılık", "desc": "Çocuk ve ergenin gelişim dönemine uygun, yaşa duyarlı müdahale yöntemleri kullanıyorum." }
+    ]
+  },
+  "articles": [
+    { "title": "Çocuklarda Güvenli Bağlanmanın Temelleri", "category": "Çocuk Gelişimi", "readTime": "7 dk", "date": "Örnek tarih" },
+    { "title": "Aile İçi İletişimde Yapıcı Dil Kullanımı", "category": "Aile İletişimi", "readTime": "6 dk", "date": "Örnek tarih" },
+    { "title": "Ergenlik Döneminde Ebeveyn Olmak", "category": "Ergen Psikolojisi", "readTime": "9 dk", "date": "Örnek tarih" },
+    { "title": "Çift İlişkisinde Duygusal Yakınlığı Korumak", "category": "Çift Terapisi", "readTime": "8 dk", "date": "Örnek tarih" }
+  ],
+  "faq": [
+    { "q": "Aile terapisine kimler katılmalı?", "a": "Aile terapisine genellikle aynı evde yaşayan ve soruna dahil olan aile üyeleri katılır. Sürece kimlerin dahil olacağı ilk görüşmede birlikte değerlendirilir." },
+    { "q": "Çocuğumun terapiye ihtiyacı olduğunu nasıl anlarım?", "a": "Uzun süreli davranış değişiklikleri, okul başarısında düşüş, uyku sorunları, aşırı kaygı veya sosyal çekilme gibi belirtiler profesyonel destek almayı düşünmeniz için ipuçları olabilir." },
+    { "q": "Çift terapisine tek başıma gelebilir miyim?", "a": "Başlangıçta eşiniz katılmasa bile bireysel seanslarla sürece başlanabilir. Ancak çift terapisinin tam verimini alabilmek için her iki tarafın katılımı önerilir." },
+    { "q": "Terapi süreci ne kadar sürer?", "a": "Süre, ailenin ihtiyaçlarına ve çalışılan konuya bağlıdır. Kısa süreli odaklı çalışmalar olabileceği gibi, daha uzun dönem destekleyici süreçler de planlanabilir." },
+    { "q": "Seans ücreti ne kadar?", "a": "Seans bilgisi için iletişime geçin." }
+  ],
+  "contact": {
+    "title": "İletişim",
+    "intro": "Aileniz ya da ilişkiniz için destek almak istiyorsanız, sizi dinlemekten mutluluk duyarım.",
+    "formName": "Adınız",
+    "formEmail": "E-posta",
+    "formMessage": "Mesajınız",
+    "formSubmit": "Gönder"
+  }
+}
