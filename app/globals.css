@@ -12,6 +12,8 @@
   --color-fg: oklch(0.22 0.015 30);
   --color-fg-muted: oklch(0.50 0.015 30);
   --color-border: oklch(0.88 0.02 30);
+  --font-sans: var(--font-sans-var), "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display-var), "Lora", ui-serif, Georgia, serif;
 }
 
 html {
@@ -19,13 +21,13 @@ html {
 }
 
 body {
-  font-family: var(--font-sans), "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-fg);
 }
 
 h1, h2, h3, h4 {
-  font-family: var(--font-display), "Lora", ui-serif, Georgia, serif;
+  font-family: var(--font-display);
 }
 
 ::selection {

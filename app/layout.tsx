@@ -7,13 +7,13 @@ import "./globals.css";
 const sourceSans = Source_Sans_3({
   subsets: ["latin", "latin-ext"],
   display: "swap",
-  variable: "--font-sans",
+  variable: "--font-sans-var",
 });
 
 const lora = Lora({
   subsets: ["latin", "latin-ext"],
   display: "swap",
-  variable: "--font-display",
+  variable: "--font-display-var",
   style: ["normal", "italic"],
 });
 
@@ -27,12 +27,12 @@ export function generateMetadata(): Metadata {
 }
 
 const navLinks = [
-  { href: "/hakkimda", label: "Hakkımda" },
+  { href: "/hakkimda", label: "Hakkimda" },
   { href: "/hizmetler", label: "Hizmetler" },
-  { href: "/yaklasim", label: "Yaklaşım" },
-  { href: "/yazilar", label: "Yazılar" },
+  { href: "/yaklasim", label: "Yaklasim" },
+  { href: "/yazilar", label: "Yazilar" },
   { href: "/sss", label: "SSS" },
-  { href: "/iletisim", label: "İletişim" },
+  { href: "/iletisim", label: "Iletisim" },
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -41,16 +41,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="tr" className={`${sourceSans.variable} ${lora.variable}`}>
       <body className="min-h-screen flex flex-col bg-bg text-fg antialiased">
-        {/* Demo badge - persistent, unclosable */}
-        <div className="sticky top-0 z-[60] flex items-center justify-center gap-2 bg-amber-100 px-4 py-2 text-center text-xs font-medium text-amber-900">
-          <span className="inline-block h-2 w-2 rounded-full bg-amber-500" aria-hidden="true" />
-          Örnek içerik - bu bir şablon önizlemesidir
-        </div>
-
         {/* Header */}
-        <header className="sticky top-8 z-50 border-b border-border/60 bg-bg/80 backdrop-blur-md">
+        <header className="sticky top-0 z-50 border-b border-border/60 bg-bg/80 backdrop-blur-md">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-            <Link href="/" className="font-display text-xl font-semibold text-fg hover:text-primary transition-colors">
+            <Link href="/" className="font-display text-xl font-bold text-fg hover:text-primary transition-colors">
               {c.site.name}
             </Link>
             <nav className="hidden md:flex items-center gap-8">
@@ -58,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-fg-muted hover:text-primary transition-colors"
+                  className="text-sm font-medium text-fg-muted hover:text-primary transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -73,7 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Footer */}
         <footer className="border-t border-border/60 bg-bg-secondary/50 py-10">
           <div className="mx-auto max-w-7xl px-4 text-center text-sm text-fg-muted sm:px-6 lg:px-8">
-            <p className="font-display text-base text-fg">{c.site.name}</p>
+            <p className="font-display text-base font-bold text-fg">{c.site.name}</p>
             <p className="mt-1">{c.site.title}</p>
             <p className="mt-2 text-xs">&copy; {new Date().getFullYear()} - {c.site.copyright}</p>
           </div>
