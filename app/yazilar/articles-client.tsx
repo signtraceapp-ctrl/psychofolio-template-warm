@@ -12,10 +12,10 @@ export function ArticlesClient({ content: c }: { content: SiteContent }) {
           <div className="mx-auto max-w-4xl space-y-14">
             <div className="text-center space-y-4">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-                <BookOpen className="h-3.5 w-3.5" /> Bilgi Paylasimi
+                <BookOpen className="h-3.5 w-3.5" /> Bilgi Paylaşımı
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-fg">
-                Yazilarim
+                Yazılarım
               </h1>
             </div>
 
@@ -27,7 +27,7 @@ export function ArticlesClient({ content: c }: { content: SiteContent }) {
                   className="group rounded-[32px] border-2 border-primary/8 bg-bg p-7 shadow-sm hover:shadow-2xl transition-shadow duration-300 space-y-5 cursor-pointer ring-1 ring-inset ring-primary/5"
                 >
                   <div className="flex justify-between items-center">
-                    <span className="rounded-full bg-accent/10 px-3.5 py-1.5 text-[9px] font-bold text-accent-fg uppercase tracking-wider">
+                    <span className="rounded-full bg-accent/10 px-3.5 py-1.5 text-[9px] font-bold text-accent uppercase tracking-wider">
                       {a.category}
                     </span>
                     <span className="text-[10px] text-fg-muted font-medium">

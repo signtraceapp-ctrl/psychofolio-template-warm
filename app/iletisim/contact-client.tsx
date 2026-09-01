@@ -14,7 +14,7 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
           <div className="mx-auto max-w-3xl space-y-14">
             <div className="text-center space-y-4">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary font-display">
-                Bana Ulasin
+                Bana Ulaşın
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-fg">
                 {c.contact.title}
@@ -25,13 +25,16 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
             <div className="rounded-[32px] border-2 border-primary/10 bg-bg p-8 md:p-12 shadow-sm grid gap-10 md:grid-cols-2">
               <div className="space-y-6 self-center">
                 <h3 className="font-display text-2xl font-bold text-fg">
-                  Sicak Bir Merhaba
+                  Sıcak Bir Merhaba
                 </h3>
                 <p className="text-sm text-fg-muted leading-relaxed font-light">
                   {c.contact.intro}
                 </p>
 
                 <div className="space-y-3.5 text-sm text-fg-muted font-semibold">
+                  <p className="flex items-center gap-3">
+                    <Phone className="h-4 w-4 text-primary" /> +90 532 XXX XX XX
+                  </p>
                   <p className="flex items-center gap-3">
                     <Mail className="h-4 w-4 text-primary" /> {c.site.email}
                   </p>
@@ -42,12 +45,10 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
 
                 <div className="text-xs text-fg font-bold space-y-1.5 pt-2 border-t border-border/40 max-w-xs">
                   <p className="flex items-center gap-2">
-                    <Clock className="h-4 w-4 text-primary" /> Pzt-Cum: 09:00 -
-                    18:00
+                    <Clock className="h-4 w-4 text-primary" /> Pzt-Cum: 09:00 - 18:00
                   </p>
                   <p className="flex items-center gap-2">
-                    <Calendar className="h-4 w-4 text-primary" /> Cmt: 10:00 -
-                    15:00
+                    <Calendar className="h-4 w-4 text-primary" /> Cmt: 10:00 - 15:00
                   </p>
                 </div>
               </div>
@@ -56,10 +57,10 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
                 {sent ? (
                   <div className="flex h-full min-h-[280px] flex-col items-center justify-center text-center space-y-4">
                     <p className="font-display text-xl font-bold text-fg">
-                      Mesajiniz iletildi.
+                      Mesajınız iletildi.
                     </p>
                     <p className="text-sm text-fg-muted font-light">
-                      En kisa surede size donus yapilacaktir.
+                      En kısa sürede size dönüş yapılacaktır.
                     </p>
                   </div>
                 ) : (

@@ -14,7 +14,7 @@ export function ServicesClient({ content: c }: { content: SiteContent }) {
           <div className="mx-auto max-w-4xl space-y-16">
             <div className="text-center space-y-4">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-                Nasil Destek Olabilirim?
+                Nasıl Destek Olabilirim?
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-fg">
                 Hizmetlerim

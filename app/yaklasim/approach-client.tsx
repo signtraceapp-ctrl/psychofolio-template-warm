@@ -10,7 +10,7 @@ export function ApproachClient({ content: c }: { content: SiteContent }) {
           <div className="mx-auto max-w-3xl space-y-14">
             <div className="space-y-4 text-center md:text-left">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary font-display">
-                Yol Haritamiz
+                Yol Haritamız
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-fg">
                 {c.approach.title}

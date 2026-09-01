@@ -5,10 +5,10 @@ import { Check } from "lucide-react";
 import type { SiteContent } from "@/lib/content";
 
 const specialties = [
-  "Sistemik Aile Terapisi",
-  "Cift & Ilisiki Terapisi",
-  "Cocuk Merkezli Oyun Terapisi",
-  "Ebeveyn Danismanligi",
+  "Şema Terapi (ISST Akredite)",
+  "Çift & Aile Terapisi",
+  "Çocuk Merkezli Oyun Terapisi",
+  "EMDR Travma Terapisi",
 ];
 
 export function AboutClient({ content: c }: { content: SiteContent }) {
@@ -19,7 +19,7 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
           <div className="mx-auto max-w-4xl space-y-16">
             <div className="space-y-4 text-center md:text-left">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-                Tanisalim
+                Tanışalım
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-fg">
                 {c.about.title}
@@ -31,8 +31,8 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
               <div className="space-y-6 text-base text-fg-muted leading-relaxed font-light">
                 <p>{c.about.intro}</p>
                 <p>
-                  Terapide en onemli unsurun samimi ve guvenli bir bag kurmak
-                  olduguna inanir, seanslarimi bu empati uzerine insa ederim.
+                  Terapide en önemli unsurun samimi ve güvenli bir bağ kurmak
+                  olduğuna inanır, seanslarımı bu empati üzerine inşa ederim.
                 </p>
 
                 {/* Visual badge card */}
@@ -41,7 +41,7 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
                     Terapi Felsefem
                   </p>
                   <p className="text-sm italic text-fg-muted font-medium">
-                    &ldquo;Buyume, ancak guvenli bir baglandigimiz topraklarda
+                    &ldquo;Büyüme, ancak güvenli bir bağlandığımız topraklarda
                     filizlenebilir.&rdquo;
                   </p>
                 </div>
@@ -50,8 +50,8 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
               <div className="space-y-8">
                 {/* Uzmanlik Alanlari Custom box */}
                 <div className="rounded-[28px] bg-accent/5 border border-accent/15 p-7 space-y-4">
-                  <p className="text-xs font-bold uppercase tracking-wider text-accent-fg">
-                    Uzmanlik Alanlari
+                  <p className="text-xs font-bold uppercase tracking-wider text-accent">
+                    Uzmanlık Alanları
                   </p>
                   <div className="space-y-3">
                     {specialties.map((s, i) => (
@@ -60,7 +60,7 @@ export function AboutClient({ content: c }: { content: SiteContent }) {
                         className="flex items-center gap-3 text-sm text-fg font-medium"
                       >
                         <span className="h-5 w-5 rounded-full bg-accent/10 flex items-center justify-center">
-                          <Check className="h-3 w-3 text-accent-fg" />
+                          <Check className="h-3 w-3 text-accent" />
                         </span>
                         {s}
                       </div>

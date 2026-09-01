@@ -1,146 +1,122 @@
 {
   "site": {
     "name": "Ad Soyad",
-    "title": "Unvan",
-    "email": "iletisim@siteniz.com",
-    "address": "Sehir, Turkiye",
-    "copyright": "Tum haklari saklidir."
+    "title": "Klinik Psikolog",
+    "email": "merhaba@drpsikolog.com",
+    "address": "Kadıköy, İstanbul",
+    "copyright": "Tüm hakları saklıdır."
   },
   "home": {
     "badge": "WARM",
-    "headline": "Ailenizle birlikte,",
-    "headlineAccent": "daha güçlü bağlar",
-    "headlineSuffix": "kurun.",
-    "description": "Aile, çift ve ergen terapisinde sıcak, güvenli ve yapıcı bir alan sunuyorum. Birlikte yeni iletişim yolları keşfedelim.",
-    "cta": "Randevu Alın",
-    "cardTitle": "Sıcaklık & Güven",
-    "cardSubtitle": "Aile ve İlişki Terapisi",
-    "quote": "Bir çocuğun en derin ihtiyacı sevildiğini bilmektir.",
-    "quoteAuthor": "Virginia Satir"
+    "headline": "Güvenli bir alanda,",
+    "headlineAccent": "birlikte",
+    "headlineSuffix": "iyileşelim.",
+    "description": "İlişkiler, aile dinamikleri ve bireysel zorluklarda samimi, şefkatli ve bilimsel temelli bir eşlik süreci.",
+    "cta": "Tanışma Seansı",
+    "cardTitle": "Klinik Psikolog",
+    "cardSubtitle": "Samimi ve Güvenilir Rehberlik",
+    "quote": "Sıcak yaklaşımı ve kurduğu samimi bağ sayesinde hayatımın en zor dönemini atlatırken kendimi çok güvende hissettim.",
+    "quoteAuthor": "Danışan A.Y."
   },
   "services": [
     {
-      "title": "Aile Terapisi",
-      "desc": "Aile içi iletişim sorunları, rol çatışmaları ve nesiller arası örüntülerin fark edilmesi ve dönüştürülmesi için sistemik yaklaşım.",
-      "duration": "75 dk",
-      "method": "Yüzyüze"
-    },
-    {
-      "title": "Çocuk ve Ergen Terapisi",
-      "desc": "Okul uyum güçlükleri, davranış sorunları, kaygı ve özgüven konularında çocuk ve ergenlere özel terapi süreci.",
+      "title": "Bireysel Psikoterapi",
+      "desc": "Stres, kaygı, depresyon, yaşam değişimleri ve anlam arayışında bireysel farkındalık yolculuğu.",
       "duration": "50 dk",
-      "method": "Yüzyüze / Çevrimiçi"
+      "method": "CBT / Şema Terapi"
     },
     {
-      "title": "Çift Terapisi",
-      "desc": "Duygusal kopukluk, iletişim tıkanıkları ve ilişkide güven onarımı için yapılandırılmış çift terapi süreci.",
+      "title": "Çift & İlişki Terapisi",
+      "desc": "İlişki içi çatışmalar, iletişim problemleri ve bağlılık krizleri üzerine çiftler arası iyileşme.",
       "duration": "75 dk",
-      "method": "Yüzyüze"
+      "method": "Gottman / Sistemik"
     },
     {
-      "title": "Ebeveyn Danışmanlığı",
-      "desc": "Çocuğunuzla sağlıklı sınırlar kurma, duygu koçluğu ve gelişim dönemlerini anlama üzerine rehberlik.",
-      "duration": "50 dk",
-      "method": "Yüzyüze / Çevrimiçi"
+      "title": "EMDR Travma Terapisi",
+      "desc": "Zorlayıcı geçmiş deneyimlerin nörolojik düzeyde duyarsızlaştırılıp yeniden işlenmesi.",
+      "duration": "60 dk",
+      "method": "EMDR Protokolü"
     }
   ],
   "about": {
-    "title": "Hakkımda",
-    "intro": "Aile ve ilişki terapisi alanında çalışmalarımı yürütüyorum. Danışanlarımın aile içi ilişkilerini güçlendirmelerine, birbirleriyle daha derin bağlar kurmalarına eşlik ediyorum.",
+    "title": "Ben Kimim?",
+    "intro": "Merhaba, ben Klinik Psikolog. Hayatın getirdiği iniş çıkışlarda, kendinizi sıkışmış hissettiğiniz anlarda size eşlik etmek için burayım.",
     "credentials": [
       {
-        "year": "—",
-        "title": "Lisans Eğitimi",
-        "detail": "Psikoloji alanında lisans derecesi"
+        "year": "2014",
+        "title": "İstanbul Üniversitesi - Psikoloji Lisans",
+        "detail": "Birincilik derecesiyle mezuniyet"
       },
       {
-        "year": "—",
-        "title": "Yüksek Lisans",
-        "detail": "Aile ve çift terapisi alanında uzmanlık"
+        "year": "2016",
+        "title": "Klinik Psikoloji Yüksek Lisansı",
+        "detail": "Kaygı bozuklukları tez çalışması"
       },
       {
-        "year": "—",
-        "title": "Sistemik Aile Terapisi Eğitimi",
-        "detail": "Aile sistemleri yaklaşımında ileri düzey eğitim"
+        "year": "2018",
+        "title": "EMDR Avrupa Akredite Uygulayıcı",
+        "detail": "EMDR Europe onaylı sertifika"
       }
     ]
   },
   "approach": {
-    "title": "Terapi Yaklaşımım",
-    "intro": "Her aile kendine özgü bir sistemdir. Terapide amacım, ailenin kendi iç kaynaklarını keşfetmesine ve ilişkilerin besleyici bir zemine kavuşmasına yardımcı olmaktır.",
+    "title": "Çalışma Prensiplerim",
+    "intro": "Terapi sürecinde üç temel değeri merkeze alarak ilerliyoruz:",
     "principles": [
       {
-        "title": "Sistemik Bakış Açısı",
-        "desc": "Bireyi tek başına değil, ilişkisel bağlamı içinde anlıyorum. Aile üyelerinin birbirleriyle etkileşim örüntüleri terapinin odak noktasıdır."
+        "title": "Güvenli Alan",
+        "desc": "Tam gizliliğe ve şefkate dayalı bir terapötik alan."
       },
       {
-        "title": "Güvenli ve Sıcak Ortam",
-        "desc": "Her aile üyesinin kendini rahatça ifade edebileceği, yargılanmadan dinleneceği sıcak bir terapi alanı sunuyorum."
+        "title": "Kişiye Özel Süreç",
+        "desc": "İhtiyaçlarınıza, hızınıza ve hedeflerinize özel planlama."
       },
       {
-        "title": "Güçlere Odaklanma",
-        "desc": "Ailenin var olan güçlü yanlarını ve kaynaklarını keşfederek, bu temeller üzerine yeni iletişim becerileri inşa ediyoruz."
-      },
-      {
-        "title": "Gelişimsel Duyarlılık",
-        "desc": "Çocuk ve ergenin gelişim dönemine uygun, yaşa duyarlı müdahale yöntemleri kullanıyorum."
+        "title": "Aktif İş Birliği",
+        "desc": "İki uzmanın omuz omuza çalıştığı bir ortaklık."
       }
     ]
   },
   "articles": [
     {
-      "title": "Çocuklarda Güvenli Bağlanmanın Temelleri",
-      "category": "Çocuk Gelişimi",
-      "readTime": "7 dk",
-      "date": ""
-    },
-    {
-      "title": "Aile İçi İletişimde Yapıcı Dil Kullanımı",
-      "category": "Aile İletişimi",
-      "readTime": "6 dk",
-      "date": ""
-    },
-    {
-      "title": "Ergenlik Döneminde Ebeveyn Olmak",
-      "category": "Ergen Psikolojisi",
-      "readTime": "9 dk",
-      "date": ""
-    },
-    {
-      "title": "Çift İlişkisinde Duygusal Yakınlığı Korumak",
-      "category": "Çift Terapisi",
+      "title": "Kaygı Bozukluklarında Bilişsel Yeniden Yapılandırma",
+      "category": "Klinik",
       "readTime": "8 dk",
-      "date": ""
+      "date": "28 Mayıs 2026"
+    },
+    {
+      "title": "Çocuklarda Duygusal Güvenlik Alanı Oluşturmak",
+      "category": "Çocuk-Ergen",
+      "readTime": "6 dk",
+      "date": "24 Temmuz 2026"
+    },
+    {
+      "title": "EMDR ile Travma Sonrası Büyüme",
+      "category": "Travma",
+      "readTime": "10 dk",
+      "date": "10 Nisan 2026"
     }
   ],
   "faq": [
     {
-      "q": "Aile terapisine kimler katılmalı?",
-      "a": "Aile terapisine genellikle aynı evde yaşayan ve soruna dahil olan aile üyeleri katılır. Sürece kimlerin dahil olacağı ilk görüşmede birlikte değerlendirilir."
+      "q": "İlk terapi seansında ne yapılıyor?",
+      "a": "İlk seans, birbirimizi tanıdığımız, başvuru nedenlerinizi ve hedeflerinizi değerlendirdiğimiz bir ön değerlendirme seansıdır."
     },
     {
-      "q": "Çocuğumun terapiye ihtiyacı olduğunu nasıl anlarım?",
-      "a": "Uzun süreli davranış değişiklikleri, okul başarısında düşüş, uyku sorunları, aşırı kaygı veya sosyal çekilme gibi belirtiler profesyonel destek almayı düşünmeniz için ipuçları olabilir."
+      "q": "Terapi seansları ne sıklıkla yapılmalı?",
+      "a": "Başlangıçta haftada bir görüşme önerilir. Süreç ilerledikçe sıklık azaltılabilir."
     },
     {
-      "q": "Çift terapisine tek başıma gelebilir miyim?",
-      "a": "Başlangıçta eşiniz katılmasa bile bireysel seanslarla sürece başlanabilir. Ancak çift terapisinin tam verimini alabilmek için her iki tarafın katılımı önerilir."
-    },
-    {
-      "q": "Terapi süreci ne kadar sürer?",
-      "a": "Süre, ailenin ihtiyaçlarına ve çalışılan konuya bağlıdır. Kısa süreli odaklı çalışmalar olabileceği gibi, daha uzun dönem destekleyici süreçler de planlanabilir."
-    },
-    {
-      "q": "Seans ücreti ne kadar?",
-      "a": "Seans bilgisi için iletişime geçin."
+      "q": "Seansların gizliliği nasıl korunur?",
+      "a": "Tüm seanslarımız yasal ve etik sınırlar çerçevesinde %100 gizlilik ilkesine dayanır."
     }
   ],
   "contact": {
-    "title": "İletişim",
-    "intro": "Aileniz ya da ilişkiniz için destek almak istiyorsanız, sizi dinlemekten mutluluk duyarım.",
-    "formName": "Adınız",
+    "title": "Randevu & İrtibat",
+    "intro": "Seans planlamaları, grup atölyeleri veya diğer sorularınız için çekinmeden yazabilirsiniz.",
+    "formName": "İsminiz",
     "formEmail": "E-posta",
-    "formMessage": "Mesajınız",
+    "formMessage": "Mesajınız...",
     "formSubmit": "Gönder"
   }
 }

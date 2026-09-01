@@ -10,7 +10,7 @@ export function FaqClient({ content: c }: { content: SiteContent }) {
           <div className="mx-auto max-w-3xl space-y-14">
             <div className="text-center space-y-4">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary">
-                Akliniza Takilanlar
+                Aklınıza Takılanlar
               </span>
               <h1 className="font-display text-4xl font-bold tracking-tight text-fg">
                 Soru ve Cevaplar
@@ -24,7 +24,7 @@ export function FaqClient({ content: c }: { content: SiteContent }) {
                   className="rounded-[28px] border-2 border-primary/8 bg-bg p-8 shadow-sm space-y-3"
                 >
                   <h3 className="font-display text-lg font-bold text-fg flex items-start gap-2.5">
-                    <span className="text-accent-fg font-display text-2xl leading-none -mt-1">
+                    <span className="text-accent font-display text-2xl leading-none -mt-1">
                       S.
                     </span>{" "}
                     {item.q}

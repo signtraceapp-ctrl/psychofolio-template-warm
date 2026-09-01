@@ -14,10 +14,10 @@ import {
 import type { SiteContent } from "@/lib/content";
 
 const metrics = [
-  { val: "12+", label: "Yil Deneyim" },
-  { val: "4500+", label: "Tamamlanmis Seans" },
-  { val: "8+", label: "Akademik Yayin" },
-  { val: "%100", label: "Etik Taahhut" },
+  { val: "12+", label: "Yıl Deneyim" },
+  { val: "4500+", label: "Tamamlanmış Seans" },
+  { val: "8+", label: "Akademik Yayın" },
+  { val: "%100", label: "Etik Taahhüt" },
 ];
 
 const serviceIcons = [Brain, Users, Leaf, Heart];
@@ -63,7 +63,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                   href="/hakkimda"
                   className="inline-flex items-center justify-center rounded-[32px] px-8 py-3.5 text-sm font-medium border-2 border-primary/15 hover:bg-primary/5 transition-colors"
                 >
-                  Hakkimda
+                  Hakkımda
                 </a>
               </div>
             </motion.div>
@@ -82,7 +82,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                 <div className="overflow-hidden rounded-[32px] border-2 border-primary/10 bg-bg p-4 shadow-2xl">
                   <Image
                     src="/warm_hero.png"
-                    alt="Sicak terapi ortami"
+                    alt="Sıcak terapi ortamı"
                     width={340}
                     height={425}
                     className="aspect-[4/5] w-full rounded-[24px] object-cover shadow-inner"
@@ -107,7 +107,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                     12+
                   </p>
                   <p className="text-[10px] text-fg-muted font-semibold tracking-wider uppercase mt-0.5">
-                    Yil Deneyim
+                    Yıl Deneyim
                   </p>
                 </motion.div>
               </div>
@@ -147,7 +147,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
       <section className="py-32 bg-bg">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-3xl font-bold text-center text-fg mb-16">
-            Nasil Destek Olabilirim?
+            Nasıl Destek Olabilirim?
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
             {c.services.slice(0, 3).map((s, i) => {
