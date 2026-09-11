@@ -68,22 +68,32 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
                     className="space-y-5"
                     onSubmit={(e) => {
                       e.preventDefault();
+                      const form = e.currentTarget;
+                      const ad = (form.elements.namedItem("ad") as HTMLInputElement)?.value ?? "";
+                      const eposta = (form.elements.namedItem("eposta") as HTMLInputElement)?.value ?? "";
+                      const mesaj = (form.elements.namedItem("mesaj") as HTMLTextAreaElement)?.value ?? "";
+                      const subject = encodeURIComponent("İletişim Formu");
+                      const body = encodeURIComponent(`Ad: ${ad}\nE-posta: ${eposta}\n\n${mesaj}`);
+                      window.location.href = `mailto:${c.site.email}?subject=${subject}&body=${body}`;
                       setSent(true);
                     }}
                   >
                     <input
+                      name="ad"
                       type="text"
                       placeholder={c.contact.formName}
                       required
                       className="w-full rounded-2xl border-2 border-primary/8 bg-bg-secondary/30 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-shadow duration-300"
                     />
                     <input
+                      name="eposta"
                       type="email"
                       placeholder={c.contact.formEmail}
                       required
                       className="w-full rounded-2xl border-2 border-primary/8 bg-bg-secondary/30 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 transition-shadow duration-300"
                     />
                     <textarea
+                      name="mesaj"
                       placeholder={c.contact.formMessage}
                       rows={4}
                       required
