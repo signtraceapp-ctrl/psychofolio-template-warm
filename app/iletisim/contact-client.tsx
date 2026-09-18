@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, MapPin, Phone, Clock, Calendar } from "lucide-react";
+import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import type { SiteContent } from "@/lib/content";
 
 export function ContactClient({ content: c }: { content: SiteContent }) {
@@ -25,7 +25,7 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
             <div className="rounded-[32px] border-2 border-primary/10 bg-bg p-8 md:p-12 shadow-sm grid gap-10 md:grid-cols-2">
               <div className="space-y-6 self-center">
                 <h3 className="font-display text-2xl font-bold text-fg">
-                  Sıcak Bir Merhaba
+                  {c.contact.title}
                 </h3>
                 <p className="text-sm text-fg-muted leading-relaxed font-light">
                   {c.contact.intro}
@@ -33,7 +33,7 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
 
                 <div className="space-y-3.5 text-sm text-fg-muted font-semibold">
                   <p className="flex items-center gap-3">
-                    <Phone className="h-4 w-4 text-primary" /> +90 532 XXX XX XX
+                    {c.site.phone && <><Phone className="h-4 w-4 text-primary" /> {c.site.phone}</>}
                   </p>
                   <p className="flex items-center gap-3">
                     <Mail className="h-4 w-4 text-primary" /> {c.site.email}
@@ -43,14 +43,13 @@ export function ContactClient({ content: c }: { content: SiteContent }) {
                   </p>
                 </div>
 
-                <div className="text-xs text-fg font-bold space-y-1.5 pt-2 border-t border-border/40 max-w-xs">
-                  <p className="flex items-center gap-2">
-                    <Clock className="h-4 w-4 text-primary" /> Pzt-Cum: 09:00 - 18:00
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <Calendar className="h-4 w-4 text-primary" /> Cmt: 10:00 - 15:00
-                  </p>
-                </div>
+                {c.site.hours && (
+                  <div className="text-xs text-fg font-bold pt-2 border-t border-border/40 max-w-xs">
+                    <p className="flex items-center gap-2">
+                      <Clock className="h-4 w-4 text-primary" /> {c.site.hours}
+                    </p>
+                  </div>
+                )}
               </div>
 
               <div>
