@@ -152,6 +152,7 @@ export interface SiteContent {
     formMessage: string;
     formSubmit: string;
   };
+  seo?: SeoData;
 }
 
 // ── Merge helper (same pattern as serene) ──
@@ -169,7 +170,6 @@ function birlestir<T extends Record<string, unknown>>(
     (cikti as Record<string, unknown>)[k] = v;
   }
   return cikti;
-  seo?: SeoData;
 }
 
 // ── Content loader ──
