@@ -4,7 +4,9 @@
     "title": "Klinik Psikolog",
     "email": "merhaba@drpsikolog.com",
     "address": "Kadıköy, İstanbul",
-    "copyright": "Tüm hakları saklıdır."
+    "copyright": "Tüm hakları saklıdır.",
+    "phone": "+90 500 000 00 00",
+    "hours": "Pzt-Cum: 09:00-18:00, Cmt: 10:00-15:00"
   },
   "home": {
     "badge": "WARM",
