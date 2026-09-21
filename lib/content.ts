@@ -53,6 +53,7 @@ const siteContentInputSchema = z.object({
       credentials: z.array(
         z.object({ year: metin, title: metin, detail: metin }),
       ),
+      organizations: z.array(metin),
     })
     .partial()
     .optional(),
@@ -127,6 +128,7 @@ export interface SiteContent {
     title: string;
     intro: string;
     credentials: { year: string; title: string; detail: string }[];
+    organizations?: string[];
   };
   approach: {
     title: string;
