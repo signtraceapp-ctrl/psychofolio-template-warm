@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 import type { SiteContent } from "@/lib/content";
 
-const specialties = [
+const defaultSpecialties = [
   "Şema Terapi (ISST Akredite)",
   "Çift & Aile Terapisi",
   "Çocuk Merkezli Oyun Terapisi",
@@ -12,6 +12,9 @@ const specialties = [
 ];
 
 export function AboutClient({ content: c }: { content: SiteContent }) {
+  const specialties = (c.about.organizations && c.about.organizations.length > 0)
+    ? c.about.organizations
+    : defaultSpecialties;
   return (
     <div className="font-sans bg-bg text-fg">
       <section className="py-32">
