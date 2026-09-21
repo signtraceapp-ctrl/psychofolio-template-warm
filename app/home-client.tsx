@@ -92,17 +92,19 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                 </div>
 
                 {/* Floating stat badge */}
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  className="absolute -bottom-6 -left-6 rounded-2xl bg-bg border-2 border-primary/10 px-5 py-4 shadow-xl text-center"
-                >
-                  <p className="font-display text-3xl font-bold text-primary">
-                    12+
-                  </p>
-                  <p className="text-[10px] text-fg-muted font-semibold tracking-wider uppercase mt-0.5">
-                    Yıl Deneyim
-                  </p>
-                </motion.div>
+                {c.metrics && c.metrics.length > 0 && (
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    className="absolute -bottom-6 -left-6 rounded-2xl bg-bg border-2 border-primary/10 px-5 py-4 shadow-xl text-center"
+                  >
+                    <p className="font-display text-3xl font-bold text-primary">
+                      {c.metrics[0].val}
+                    </p>
+                    <p className="text-[10px] text-fg-muted font-semibold tracking-wider uppercase mt-0.5">
+                      {c.metrics[0].label}
+                    </p>
+                  </motion.div>
+                )}
               </div>
             </motion.div>
           </div>
