@@ -13,13 +13,6 @@ import {
 } from "lucide-react";
 import type { SiteContent } from "@/lib/content";
 
-const metrics = [
-  { val: "12+", label: "Yıl Deneyim" },
-  { val: "4500+", label: "Tamamlanmış Seans" },
-  { val: "8+", label: "Akademik Yayın" },
-  { val: "%100", label: "Etik Taahhüt" },
-];
-
 const serviceIcons = [Brain, Users, Leaf, Heart];
 
 export function HomeClient({ content: c }: { content: SiteContent }) {
@@ -185,7 +178,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
       <section className="py-20 bg-bg-secondary/40 border-t border-primary/5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-            {metrics.map((m, i) => (
+            {(c.metrics ?? []).map((m, i) => (
               <motion.div
                 key={i}
                 whileHover={{ scale: 1.02 }}
