@@ -18,6 +18,12 @@
     "quote": "Sıcak yaklaşımı ve kurduğu samimi bağ sayesinde hayatımın en zor dönemini atlatırken kendimi çok güvende hissettim.",
     "quoteAuthor": "Danışan A.Y."
   },
+  "metrics": [
+    { "val": "12+", "label": "Yıl Deneyim" },
+    { "val": "4500+", "label": "Tamamlanmış Seans" },
+    { "val": "8+", "label": "Akademik Yayın" },
+    { "val": "%100", "label": "Etik Taahhüt" }
+  ],
   "services": [
     {
       "title": "Bireysel Psikoterapi",
