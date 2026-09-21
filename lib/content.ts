@@ -36,6 +36,10 @@ const siteContentInputSchema = z.object({
     .partial()
     .optional(),
 
+  metrics: z
+    .array(z.object({ val: metin, label: metin }))
+    .optional(),
+
   services: z
     .array(
       z.object({ title: metin, desc: metin, duration: metin, method: metin }),
@@ -112,6 +116,7 @@ export interface SiteContent {
     quote: string;
     quoteAuthor: string;
   };
+  metrics: { val: string; label: string }[];
   services: {
     title: string;
     desc: string;
@@ -187,6 +192,10 @@ export function getContent(): SiteContent {
         cached = {
           site: birlestir(defaults.site, g.site),
           home: birlestir(defaults.home, g.home),
+          metrics:
+            g.metrics && g.metrics.length > 0
+              ? (g.metrics as SiteContent["metrics"])
+              : defaults.metrics,
           services:
             g.services && g.services.length > 0
               ? (g.services as SiteContent["services"])
