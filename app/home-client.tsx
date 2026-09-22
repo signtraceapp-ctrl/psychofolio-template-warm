@@ -56,7 +56,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
                   href="/hakkimda"
                   className="inline-flex items-center justify-center rounded-[32px] px-8 py-3.5 text-sm font-medium border-2 border-primary/15 hover:bg-primary/5 transition-colors"
                 >
-                  Hakkımda
+                  {c.home.ctaSecondary || "Hakkımda"}
                 </a>
               </div>
             </motion.div>
@@ -142,7 +142,7 @@ export function HomeClient({ content: c }: { content: SiteContent }) {
       <section className="py-32 bg-bg">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="font-display text-3xl font-bold text-center text-fg mb-16">
-            Nasıl Destek Olabilirim?
+            {c.servicesHeading || "Nasıl Destek Olabilirim?"}
           </h2>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
             {c.services.slice(0, 3).map((s, i) => {
